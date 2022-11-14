@@ -178,17 +178,16 @@ pre{
     display: flex;
 }
 
-@media (min-width:400px) and (max-width: 1024px){
+@media (min-width:330px) and (max-width: 1024px){
 
 body{
-background-image: linear-gradient(120deg, #f403ff , #b227fd);
-background-size: cover;
-background-position: center;
+background-image:linear-gradient(120deg, rgb(171 18 254)0%, rgb(244 3 255)80%);
+
 }
 
 section{
     position: absolute;
-    left: 14.4rem;
+    left: 7.5rem;
     top: 9.5rem;
     
 }
@@ -196,14 +195,14 @@ section{
 .undraw{
     display: flex;
     position: absolute;
-    bottom: 11rem;
-    right: 15.5rem;
+    bottom: 6.8rem;
+    right: 11.9rem;
 }
 img{
-    width:15rem;
+    width:8.2rem;
 }
 form input, form button{
-    padding: 0.34rem;
+    padding: 0.28rem;
     font-size: 1.18rem;
     border:none;
     background: white;
@@ -211,18 +210,24 @@ form input, form button{
 
 }
 input{
-    width: 8rem;
+    width: 5.6rem;
 }
 .todo{
-font-size: 0.88rem;
+font-size: 0.7rem;
+
 
 }
 .todo-list{
 
 }
+
+
+
+
+
 .filter-todo{
-width: 5rem;
-padding: 0.5rem;
+width: 4rem;
+padding: 0.3rem;
 }
 
 header, h1{
@@ -231,10 +236,13 @@ header, h1{
     min-width: 100%;
     position: absolute;
     bottom: 6rem;
-    right: 2.87rem;
+    right: 1.87rem;
+    font-size: 1.5rem;
 
 }
-
+span{
+    font-size: 1.6rem;
+}
 
 
 
