@@ -208,12 +208,25 @@ select{
     section{
         width: 80%;
         margin: 0rem auto 21rem auto;
-
+        flex:1 1 2rem;
+        position: absolute;
+        top: 34rem;
+        right: 3rem;
     }
-      img{
-        width: 75%;
+      /* img{
+        min-width:100%;
     
-      }
+      } */
+.undraw{
+    width: 70%;
+    margin:auto;
+    position: absolute;
+    top: 11rem;
+    right: 3rem;
+    flex:1 1 2rem;
+
+}
+    
 }
 
 
